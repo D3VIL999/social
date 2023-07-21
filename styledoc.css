@@ -1,0 +1,241 @@
+
+
+.box {
+
+    width: 250px;
+    height: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 7);
+}
+
+.pp {
+    width: 100%;
+    height: 60%;
+
+}
+
+.pp>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.text {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+
+}
+
+.text h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+
+}
+
+.friends {
+    display: inline-flex;
+    width: 70%;
+
+}
+
+.txt {
+    padding: 0;
+    height: 100%;
+
+}
+
+.txt p {
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    padding: 1px;
+    align-content: center;
+    margin: 0;
+    margin: 7%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+
+
+}
+
+button {
+    width: 140px;
+    height: 38px;
+    background-color: rgb(118, 37, 156);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.mpp {
+    width: 30px;
+    height: 30px;
+
+}
+
+.mpp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+
+}
+
+.button-area {
+    margin-top: 3%;
+}
+
+body {
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: rgb(118, 37, 156);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+
+}
+
+.first {
+    color: white;
+    font-family: Tahoma;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.second {
+    flex: 1;
+    max-width: 700px;
+}
+
+.second input {
+    width: 100%;
+    height: 40px;
+    border-radius: 35px;
+    border-style: none;
+
+}
+
+.second ::placeholder {
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.third {
+    margin: 0 30px 0 30px;
+}
+
+.third button {
+    border: solid white 1px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.sidebar {
+    width: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 70px;
+    background-color: rgba(75, 15, 110, 0.7);
+    display: block;
+
+
+
+
+
+
+}
+
+.imgside {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin: 9px;
+
+
+
+}
+.mpp{
+    position: relative;
+    cursor: pointer;
+    z-index: ;
+
+
+}
+.button-area button{
+    z-index: ;
+}
+
+.mpp:hover .hoverdiv{
+    opacity: 1;
+}
+
+.hoverdiv {
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 1px 10px;
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    left: 20px;
+    top: 5px;
+    opacity: 0;
+    
+}
+
+.hoverimg {
+    height: 80px;
+    width: 80px;
+    
+}
+
+.hoverimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+
+}
+
+.hovertxt{
+    display: block;
+    padding: 10px;
+
+}
+.hovername{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    white-space:nowrap;
+    font-size: 25px;
+    padding-bottom: 0;
+    font-weight: 700;
+
+}
+
+.hoverin{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.hoverin p{
+    padding: 0;
+    margin: 0;
+}
